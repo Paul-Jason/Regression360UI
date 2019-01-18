@@ -1,0 +1,4 @@
+FireflyAdaptor.js : I2bb03c788dace893c66265678444e481decd6e26
+ConsumptionModelConverter.js : I014c6dd687f903eec2728d6b6a1635f0e34e5b00
+VisualizationControl.js : If1e0d2fad366cf43df52a509d787efd85827e73d
+VisualizationModel.js : Iffb72dc19f59f41f5f10b9306f5f331bb7e40a90

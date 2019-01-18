@@ -1,0 +1,50 @@
+{
+  "name": "regression360ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "webpack --mode production"
+  },
+  "author": "Paul Jason",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-proposal-object-rest-spread": "^7.2.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "html-webpack-plugin": "^3.2.0",
+    "react-highcharts": "^16.0.2",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.8.1",
+    "@material-ui/icons": "^3.0.1",
+    "axios": "^0.18.0",
+    "chart.js": "^2.7.3",
+    "express": "^4.16.4",
+    "express-favicon": "^2.0.1",
+    "highcharts-react-official": "^2.0.0",
+    "immutable": "^4.0.0-rc.12",
+    "mdbreact": "^4.8.7",
+    "node-sass": "^4.11.0",
+    "path": "^0.12.7",
+    "react": "^16.3.2",
+    "react-chartjs-2": "^2.7.4",
+    "react-dom": "^16.3.2",
+    "react-jsx-highcharts": "^3.4.0",
+    "react-redux": "^6.0.0",
+    "react-router-dom": "^4.3.1",
+    "recharts": "^1.4.2",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "sass-loader": "^7.1.0"
+  }
+}
