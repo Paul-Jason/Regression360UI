@@ -13,5 +13,11 @@ app.get('/ping', function (req, res) {
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'dist', 'index.html'));
 });
+app.get('/*', (req, res) => {
+    console.log('hi from app.get')
+    console.log(req)
+    console.log(res)
+    res.sendFile(path.join(__dirname, 'dist', 'index.html'));
+});
 
 app.listen(port);
